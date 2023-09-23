@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto's</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Auto Zoeken</h1>
+    <h2 id="aantalResultaten">Aantal resultaten: <span id="resultaatTeller">283</span></h2>
+    
+    <div id="filters"> 
+        <label for="merk">Merk:</label>
+        <select id="merk"></select>
+
+        <label for="model">Model:</label>
+        <select id="model"></select>
+
+
+        <label for="prijs">Kostprijs:</label>
+        <select id="prijs">
+            <option value="">Alle</option>
+            <option value="5000-10000">5.000 - 10.000</option>
+            <option value="10000-20000">10.000 - 20.000</option>
+            <option value="20000-50000">20.000 - 50.000</option>
+            <option value="50000-100000">50.000 - 100.000</option>
+            <option value="100000-200000">100.000 - 200.000</option>
+            <option value="200000-500000">200.000 - 500.000</option>
+            <option value="500000-750000">500.000 - 750.000</option>
+            <option value="750000-1000000">750.000 - 1.000.000</option>
+            <option value="1000000-2000000">1.000.000 - 2.000.000</option>
+            <option value="2000000+">2.000.000+</option>
+        </select>
+
+        <label for="snelheid">Snelheid:</label>
+        <select id="snelheid">
+            <option value="">Alle</option>
+            <option value="100">100 km/h</option>
+            <option value="200">200 km/h</option>
+            <option value="300">300 km/h</option>
+            <option value="400">400 km/h</option>
+            <option value="500">500+ km/h</option>
+        </select>
+
+        <label for="kofferbak">Kofferbakgrootte:</label>
+        <select id="kofferbak">
+            <option value="">Alle</option>
+            <option value="5 kg">5 kg</option>
+            <option value="10 kg">10 kg</option>
+            <option value="15 kg">15 kg</option>
+            <option value="20 kg">20 kg</option>
+            <option value="25 kg">25 kg</option>
+            <option value="30 kg">30 kg</option>
+            <option value="35 kg">35 kg</option>
+            <option value="40 kg">40 kg</option>
+            <option value="45 kg">45 kg</option>
+            <option value="50 kg">50 kg</option>
+            <option value="55 kg">55 kg</option>
+            <option value="60 kg">60 kg</option>
+            <option value="65 kg">65 kg</option>
+            <option value="70 kg">70 kg</option>
+            <option value="75 kg">75 kg</option>
+            <option value="80 kg">80 kg</option>
+            <option value="85 kg">85 kg</option>
+            <option value="90 kg">90 kg</option>
+            <option value="95 kg">95 kg</option>
+            <option value="10 0kg">100 kg</option>
+            <option value="15 0kg">150 kg</option>
+            <option value="200 kg">200 kg</option>
+            <option value="300 kg">300 kg</option>
+            <option value="400 kg">400 kg</option>
+            
+
+        </select>
+
+        <label for="turing">Turing kosten:</label>
+<select id="turing">
+    <option value="">Alle</option>
+    <option value="0">0 = N.V.T</option>
+    <option value="5000-10000">5.000 - 10.000</option>
+    <option value="10000-20000">10.000 - 20.000</option>
+    <option value="20000-50000">20.000 - 50.000</option>
+    <option value="50000-100000">50.000 - 100.000</option>
+    <option value="100000-200000">100.000 - 200.000</option>
+    <option value="200000-500000">200.000 - 500.000</option>
+    <option value="500000-750000">500.000 - 750.000</option>
+    <option value="750000-1000000">750.000 - 1.000.000</option>
+    <option value="1000000+">1.000.000+</option>
+</select>
+
+
+        <label for="offroad">Offroad:</label>
+        <select id="offroad">
+            <option value="">Alle</option>
+            <option value="Straat">Straat</option>
+            <option value="Zand">Zand</option>
+            <option value="Offroad">Offroad</option>
+        </select>
+
+
+        <label for="trekhaak">Trekhaak:</label>
+        <input type="checkbox" id="trekhaak">
+
+    </div>
+
+    <div id="resultaten">
+        <!-- Hier worden de resultaten van de zoekopdracht weergegeven -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

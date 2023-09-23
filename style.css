@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e2124; /* Achtergrondkleur voor de hele pagina */
+}
+
+h4 {
+    margin: 20px;
+    color: #ffffff; /* wort gebruikt bij geen resultaat */
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff; /* Kleur voor de titel */
+}
+
+h2 {
+    margin: 20px;
+    margin-top: 20px;
+    color: #ffffff; /* gebrukt voor resultaten */
+}
+
+
+h3 {
+    margin: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff; /* wort gebruikt bij geen resultaat */
+}
+
+
+
+p {
+    margin-left: 20px;
+    color: #ffffff; 
+}
+
+#filters {
+    margin: 20px;
+    padding: 20px; /* Voeg meer padding toe voor ruimte binnen de categorieën */
+    border: 1px solid #7289da;
+    display: flex; /* Gebruik flexbox om de categorieën naast elkaar te plaatsen */
+    flex-wrap: wrap; /* Als de categorieën niet passen, gaan ze naar de volgende rij */
+    justify-content: space-between; /* Verdeel de ruimte tussen de categorieën */
+    background-color: #282b30; /* Achtergrondkleur voor de filters */
+    color: #ffffff; 
+}
+
+select {
+    /* Hier kun je de gewenste tekstkleur instellen */
+    color: #ffffff; /* Bijvoorbeeld rood (#ff0000) */
+}
+
+
+select option {
+    /* Hier kun je de gewenste tekstkleur instellen */
+    color: #ffffff; /* Bijvoorbeeld groen (#00ff00) */
+}
+
+#filters label {
+    /* Verwijder 'display: block;' om de categorieën naast elkaar te plaatsen */
+    margin-bottom: 10px; /* Voeg extra marge toe onder de labels */
+    color: #ffffff; /* Kleur voor labels */
+}
+
+#filters select, #filters input[type="radio"], #filters input[type="checkbox"] {
+    margin-right: 10px; /* Voeg meer ruimte tussen de invoerelementen toe */
+    margin-bottom: 10px; /* Voeg extra marge toe onder de invoerelementen */
+}
+
+
+
+
+#filters select {
+    background-color: #282b30; /* Achtergrondkleur voor selectievakjes */
+}
+
+#resultaten {
+    margin: 20px;
+    padding: 20px; /* Voeg meer padding toe voor ruimte binnen de resultatencontainer */
+    border: 1px solid #7289da;
+    background-color: #282b30;
+}
+
+
+.auto {
+    border: 1px solid #7289da;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #282b30; /* Achtergrondkleur voor elk resultaatitem */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Voeg een subtiele schaduw toe */
+}
+
+.auto p {
+    color: #ffffff; /* Kleur voor koppen in resultaten */
+}
+
+.auto h2 {
+    margin-top: 0;
+    color: #ffffff; /* Kleur voor koppen in resultaten */
+}
